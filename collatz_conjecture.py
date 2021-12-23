@@ -36,7 +36,7 @@ def unordered_collatz(collatz_input):
     collatz_output_list = [collatz_input]
 
     while collatz_input != 1:
-        if collatz_input % 2 == 0:
+        if collatz_input % divisor == 0:
             collatz_input = collatz_input // divisor
         else:
             collatz_input = multiplier * collatz_input + adder
