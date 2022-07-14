@@ -107,6 +107,8 @@ for count, data in enumerate(small_list):
     x.append(count)
     y.append(data)
 plt.plot(x, y)
+plt.title(str(multiplier) + "x+" + str(adder) + ", x/" + str(divisor) +
+          " (" + str(orderedFlag) + ")  Start: " + str(user_input))
 plt.xlabel("Iterations")
 plt.ylabel("n")
 file_name = "%i %inx%i %i " % (user_input, multiplier, adder, divisor) + str(orderedFlag) + ".jpg"
