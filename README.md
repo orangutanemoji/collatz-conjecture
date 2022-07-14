@@ -3,7 +3,8 @@ This program was used to create graphs of the Collatz Conjecture.
 There are variables to change the formula to different numbers than 3x+1 and /2.
 My overall finding was that the chaotic behavior demonstrated by 3x+1 and /2 graphs is essentially just the same as the boring behavior as x+1 and /2 graphs, but spikes whenever it encounters a number with only odd prime factors.
 
-Generated graphs look like: (pictured is 3x+1 2
+Generated graphs look like: (pictured is 3x+1 2)
+
 ![Figure_1](https://user-images.githubusercontent.com/96557890/179048312-92fc6d0b-da32-43c1-abdc-bd513b35b193.png)
 
 And the list of steps is printed in the console:
