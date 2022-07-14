@@ -1,13 +1,15 @@
 # collatz-conjecture
-This program was used to create graphs of the Collatz Conjecture. 
+This script creates graphs of the Collatz Conjecture.
+
 There are variables to change the formula to different numbers than 3x+1 and /2.
-My overall finding was that the chaotic behavior demonstrated by 3x+1 and /2 graphs is essentially just the same as the boring behavior as x+1 and /2 graphs, but spikes whenever it encounters a number with only odd prime factors.
+My overall finding was that the chaotic behavior demonstrated by 3x+1 and /2 sequences is essentially just the same as the boring behavior demonstrated by x+1 and /2 sequences, but 3x+1 spikes whenever it encounters a number with only odd prime factors.
 
 Generated graphs look like:
 
 ![Figure_1](https://user-images.githubusercontent.com/96557890/179048312-92fc6d0b-da32-43c1-abdc-bd513b35b193.png)
 
 And the list of steps is printed in the console:
+```
 Odds: n*3+1  Evens: n/2
 Step 0:   1         = 25 	 Prime Factors: 2 [5, 5]
 Step 1:  25 * 3 + 1 = 76 	 Prime Factors: 3 [2, 2, 19]
@@ -34,3 +36,4 @@ Step 21:  8 / 2     = 4  	 Prime Factors: 2 [2, 2]
 Step 22:  4 / 2     = 2  	 Prime Factors: 1 [2]
 Step 23:  2 / 2     = 1  	 Prime Factors: 0 []
 Loop [4, 2, 1]
+```
